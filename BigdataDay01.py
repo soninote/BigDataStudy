@@ -21,6 +21,15 @@ print(a+b)
 
 '''
 
+'''
+# 오류  -  Type error
+a, b, c = int(input("숫자 3개를 입력하시오").split(","))
+
+print(a,b,c)
+'''
+
+# 해결  - map 함수 사용
+
 
 a, b, c = map(int, input("숫자 3개를 입력하시오").split(","))
 
